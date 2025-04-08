@@ -44,8 +44,8 @@ Accéder à l’application sur : [http://localhost:8000](http://localhost:8000)
 > Tu peux publier l’image avec :
 
 ```bash
-docker build -t malloukmarwane/gestion-location-voitures .
-docker push malloukmarwane/gestion-location-voitures
+docker build -t marwanemallouk/gestion-location-voitures .
+docker push marwanemallouk/gestion-location-voitures
 ```
 
 ---
