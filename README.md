@@ -11,7 +11,7 @@ Une application web développée avec **Laravel** pour gérer un parc de voiture
 - **MySQL**
 - **Docker / Docker Compose**
 - **Bootstrap**
-- **JavaScript (Vite)**
+- **JavaScript**
 
 ---
 
@@ -32,8 +32,7 @@ docker-compose up -d --build
 docker exec -it app composer install
 docker exec -it app php artisan key:generate
 docker exec -it app php artisan migrate
-docker exec -it app npm install
-docker exec -it app npm run build
+
 ```
 
 Accéder à l’application sur : [http://localhost:8000](http://localhost:8000)
